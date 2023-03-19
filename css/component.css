@@ -1,13 +1,11 @@
 .section-title {
-  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 117.8571428571%;
-  letter-spacing: 0.05em; }
+  font-size: 32px;
+  line-height: 150%; }
 
 ._container {
-  padding: 0 30px;
-  width: 349px;
+  padding: 0 20px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -16,30 +14,21 @@
   padding-bottom: 50px; }
 
 ._suptitle {
-  display: flex;
-  align-items: center;
   font-weight: 600;
-  font-size: 11px;
-  line-height: 136.3636363636%;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 20px; }
+  font-size: 16px;
+  line-height: 150%; }
 
 ._descripttion {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 162%;
-  letter-spacing: 0.02em;
-  margin-top: 20px; }
+  font-size: 18px;
+  line-height: 156%; }
 
 @media screen and (min-width: 768px) {
   ._container {
-    width: 696px;
-    padding: 0 39px; }
-
-  ._section {
-    padding-top: 100px;
-    padding-bottom: 100px; }
+    width: 768px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto; }
 
   ._descripttion {
     font-size: 18px;
@@ -47,7 +36,9 @@
 @media screen and (min-width: 1150px) {
   ._container {
     width: 1150px;
-    padding: 0 20px; }
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto; }
 
   .section-title {
     font-size: 42px;

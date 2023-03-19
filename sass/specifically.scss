@@ -1,0 +1,117 @@
+.specifically__section {
+}
+._section {
+}
+.specifically__container > .section-title {
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+._container {
+}
+.section-title {
+}
+.specifically__list {
+  display: flex;
+}
+.specifically__item {
+  display: flex;
+}
+._list {
+}
+
+.specifically__item-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33/22 * 100%;
+  display: flex;
+  &:not(:last-child) {
+    margin: 0px 0px 8px 0px;
+  }
+}
+.specifically__item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+}
+.specifically__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: $color_white;
+  padding: 15px 32px;
+  background: $color_accent;
+  border-radius: 4px;
+  margin: 32px 0px 0px 0px;
+  border: none;
+  align-self: center;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    color: $primery-text-color;
+  }
+}
+.specifically__icon {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 24px 0px;
+}
+@media screen and (max-width: 767px) {
+  .specifically__icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 24px 0px;
+  }
+  .specifically__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .specifically__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .specifically__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .specifically__list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .specifically__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  .specifically__item-description {
+    text-align: start;
+  }
+  .specifically__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specifically__icon {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 1150px) {
+}

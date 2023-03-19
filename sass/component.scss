@@ -22,51 +22,44 @@
 // }
 
 .section-title {
-  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 33/28 * 100%;
-  letter-spacing: 0.05em;
+  font-size: 32px;
+  line-height: 48/32 * 100%;
 }
 
 ._container {
-  padding: 0 30px;
-  width: 349px;
+  padding: 0 20px;
+  // max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 ._section {
   padding-top: 50px;
   padding-bottom: 50px;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 ._suptitle {
-  display: flex;
-  align-items: center;
   font-weight: 600;
-  font-size: 11px;
-  line-height: 15/11 * 100%;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 ._descripttion {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 162%;
-  letter-spacing: 0.02em;
-  margin-top: 20px;
+  font-size: 18px;
+  line-height: 156%;
 }
 
 @media screen and (min-width: 768px) {
   ._container {
-    width: 696px;
-    padding: 0 39px;
+    width: 768px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  ._section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+
   ._descripttion {
     font-size: 18px;
     line-height: 167%;
@@ -77,6 +70,8 @@
   ._container {
     width: 1150px;
     padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section-title {
