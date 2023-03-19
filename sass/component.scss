@@ -26,6 +26,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 48/32 * 100%;
+  margin: 0px 0px 16px 0px;
 }
 
 ._container {
@@ -44,6 +45,13 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
+  margin: 40px 0px 8px 0px;
+}
+._subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162%;
+  margin: 0px 0px 12px 0px;
 }
 
 ._descripttion {
@@ -63,6 +71,15 @@
   ._descripttion {
     font-size: 18px;
     line-height: 167%;
+  }
+  .section-title {
+    margin: 0px 0px 25px 0px;
+  }
+  ._suptitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 50px 0px 8px 0px;
   }
 }
 
