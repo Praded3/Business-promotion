@@ -1696,6 +1696,10 @@ body {
     text-align: center;
   }
 
+  .process__container .section-title {
+    text-align: center;
+  }
+
   .process__container .process__description {
     text-align: start;
   }
