@@ -1,0 +1,111 @@
+.join__section {
+}
+._section {
+}
+.join__container {
+}
+._container {
+}
+.join__decorative_container {
+  display: flex;
+  background-color: $color_accent;
+  border-radius: 32px;
+}
+.join__text_container {
+  display: flex;
+  flex-direction: column;
+}
+.join-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151%;
+  color: #ffffff;
+}
+.join__btn {
+  width: 150px;
+  padding: 10px 34px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: $color_accent;
+  background: #ffffff;
+  border-radius: 8px;
+  border: transparent;
+  transition: all $transition__stock;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    color: $primery-text-color;
+  }
+}
+.join__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 351px;
+  // height: 331px;
+}
+
+@media screen and (max-width: 767px) {
+  .join__decorative_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .join-title {
+    text-align: center;
+  }
+  .join__text_container {
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+    padding-top: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .join__container {
+    padding: 0px 70px;
+    justify-content: center;
+  }
+  .join__decorative_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .join__text_container {
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+    padding-top: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .join-title {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .join__decorative_container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 46px;
+  }
+  .join__text_container {
+    padding-top: 49px;
+    padding-bottom: 56px;
+    gap: 46px;
+    max-width: 440px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: start;
+  }
+  .join-title {
+    text-align: start;
+  }
+}

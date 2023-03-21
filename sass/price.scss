@@ -90,6 +90,7 @@
   border-radius: 8px;
   border-color: transparent;
   color: $color_white;
+  transition: all $transition__stock;
 
   &:hover,
   &:focus {
@@ -111,6 +112,9 @@
   color: $color_white;
   background-color: $color_accent;
   & span {
+    color: $color_white;
+  }
+  &::after {
     color: $color_white;
   }
 }
