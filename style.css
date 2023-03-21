@@ -2696,8 +2696,13 @@ body {
   border: 1px solid #bcd0e5;
   border-radius: 4px;
   margin-top: 30px;
-  padding: 10px 42px;
+  padding: 10px 40px;
   position: relative;
+  color: #22343d;
+}
+.input-subscribe-form:hover, .input-subscribe-form:focus, .input-subscribe-form:checked {
+  border: 3px solid #02897a;
+  outline: none;
 }
 
 .input-subscribe-form::-webkit-input-placeholder {
@@ -2733,7 +2738,7 @@ body {
   height: 28px;
   position: absolute;
   top: 40px;
-  left: 12px;
+  left: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -2772,6 +2777,25 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .decorative-subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .footer__link-title {
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
