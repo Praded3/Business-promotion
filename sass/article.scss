@@ -22,6 +22,10 @@
     top: 4px;
   }
 }
+.article-blok {
+  display: flex;
+  gap: 30px;
+}
 .strategies__description {
   padding-bottom: 40px;
 }
@@ -30,6 +34,7 @@
 .article {
   border: 1px solid #dedede;
   border-radius: 8px;
+  max-width: 350px;
 }
 .article__link {
   color: $primery-text-color;
@@ -51,6 +56,13 @@
   transition: all $transition__stock;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+  background-image: url(./img/article.png);
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-top: 8px;
 }
 
 .article__decorative-container {
@@ -72,4 +84,37 @@
   padding-left: 27px;
   padding: 12px 27px 40px 27px;
   transition: all $transition__stock;
+}
+@media screen and (max-width: 767px) {
+  .article-blok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .article-img {
+    height: 198px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .article-blok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .article-img {
+    height: 186px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .article-blok {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 }
