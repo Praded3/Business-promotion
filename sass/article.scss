@@ -40,6 +40,7 @@
   color: $primery-text-color;
   width: 100%;
   height: 100%;
+  transition: all $transition__stock;
   display: block;
   &:hover .article-title,
   &:focus .article-title {
@@ -61,7 +62,7 @@
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-
+  transition: all $transition__stock;
   border-top: 8px;
 }
 

@@ -46,6 +46,7 @@
   margin: 32px 0px 0px 0px;
   border: none;
   align-self: center;
+  transition: all $transition__stock;
   &:hover,
   &:focus {
     box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);

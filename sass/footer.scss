@@ -44,8 +44,15 @@
     background-color: $primery-text-color;
   }
 }
-._link {
+.footer-link {
+  color: $primery-text-color;
+  transition: all $transition__stock;
+  &:hover,
+  &:focus {
+    color: $color_accent;
+  }
 }
+
 .footer__icon {
   width: 24px;
   height: 24px;
@@ -113,8 +120,7 @@
   color: $primery-text-color;
   transition: all $transition__stock;
   &:hover,
-  &:focus,
-  &:checked {
+  &:focus {
     border: 3px solid $color_accent;
     outline: none;
   }

@@ -401,7 +401,7 @@ body.lock {
     color: $color_white;
     border: 1px solid transparent;
     background-color: $color_accent;
-    transition: all $transition__stock;
+
     &:hover,
     &:focus {
       box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
@@ -411,6 +411,7 @@ body.lock {
   .header__link {
     color: $primery-text-color;
     background-color: transparent;
+    transition: all $transition__stock;
     &:hover,
     &:focus {
       color: $color_accent;
