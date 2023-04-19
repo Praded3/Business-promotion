@@ -137,24 +137,25 @@
   .process__description {
     padding: 12px 20px;
   }
-  .process__item:nth-child(2n + 1) {
+  .process__item:nth-child(2n) {
     flex-direction: row-reverse;
   }
   // .process__item:nth-child(1n) {
   //   flex-direction: row-reverse;
   // }
-  // .order-4 {
-  //   order: 2;
-  // }
+
   .order-1 {
-    order: 2;
+    order: 1;
   }
   .order-2 {
-    order: 0;
+    order: 2;
   }
-  // .order-3 {
-  //   order: 2;
-  // }
+  .order-3 {
+    order: 4;
+  }
+  .order-4 {
+    order: 2;
+  }
   .process__container {
     padding-top: 40px;
   }
